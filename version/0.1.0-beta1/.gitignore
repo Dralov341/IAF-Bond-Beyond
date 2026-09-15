@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse / Forge IDE output
+.classpath
+.project
+.settings/
+bin/
+
+# Minecraft development runtime
+run/
+run-data/
+logs/
+crash-reports/
+saves/
+screenshots/
+resourcepacks/
+shaderpacks/
+
+# Generated / temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini

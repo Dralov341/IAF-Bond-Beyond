@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " SM",
+    "MMM",
+    "M  "
+  ],
+  "key": {
+    "S": {"item": "minecraft:saddle"},
+    "M": {"item": "iceandfire:dragonsteel_ice_block"}
+  },
+  "result": {
+    "item": "iceandfire_bond_beyond:sea_serpent_armor_dragonsteel_ice"
+  }
+}

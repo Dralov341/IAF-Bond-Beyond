@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.iceandfirebondbeyond.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "iceandfire_bond_beyond.refmap.json",
+  "mixins": [
+    "SeaSerpentMixin",
+    "SeaSerpentInteractionMixin",
+    "SeaSerpentPushMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "SeaSerpentAnimatorMixin",
+    "CameraAccess"
+  ]
+}
