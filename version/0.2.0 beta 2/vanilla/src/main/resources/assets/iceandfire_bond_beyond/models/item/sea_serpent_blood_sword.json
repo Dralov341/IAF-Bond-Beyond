@@ -1,0 +1,6 @@
+{
+  "parent": "iceandfire:item/dragonbone_sword_fire",
+  "textures": {
+    "layer0": "iceandfire_bond_beyond:item/sea_serpent_blood_sword"
+  }
+}

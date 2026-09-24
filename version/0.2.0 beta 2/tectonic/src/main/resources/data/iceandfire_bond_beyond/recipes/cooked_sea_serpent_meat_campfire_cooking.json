@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "iceandfire_bond_beyond:sea_serpent_meat"
+  },
+  "result": "iceandfire_bond_beyond:cooked_sea_serpent_meat",
+  "experience": 0.35,
+  "cookingtime": 600,
+  "category": "food"
+}

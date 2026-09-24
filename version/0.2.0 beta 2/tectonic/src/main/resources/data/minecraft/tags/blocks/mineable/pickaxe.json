@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "iceandfire_bond_beyond:sea_serpent_bone_block",
+    "iceandfire_bond_beyond:sea_serpent_brick_blue",
+    "iceandfire_bond_beyond:sea_serpent_brick_bronze",
+    "iceandfire_bond_beyond:sea_serpent_brick_darkblue",
+    "iceandfire_bond_beyond:sea_serpent_brick_green",
+    "iceandfire_bond_beyond:sea_serpent_brick_purple",
+    "iceandfire_bond_beyond:sea_serpent_brick_red",
+    "iceandfire_bond_beyond:sea_serpent_brick_teal",
+    "iceandfire_bond_beyond:sea_serpent_forge_core",
+    "iceandfire_bond_beyond:sea_serpent_forge_input",
+    "iceandfire_bond_beyond:sea_serpent_steel_block"
+  ]
+}

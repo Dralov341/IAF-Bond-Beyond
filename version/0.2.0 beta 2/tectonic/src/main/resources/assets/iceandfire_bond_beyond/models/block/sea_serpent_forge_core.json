@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "iceandfire_bond_beyond:block/sea_serpent_forge_core"
+  }
+}

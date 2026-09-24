@@ -1,0 +1,15 @@
+{
+  "parent": "iceandfire_bond_beyond:item/elemental_tower_shield",
+  "textures": {
+    "plate": "iceandfire:block/dragonsteel_fire_block",
+    "gem": "minecraft:block/magma"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "iceandfire_bond_beyond:item/dragonsteel_fire_shield_blocking"
+    }
+  ]
+}

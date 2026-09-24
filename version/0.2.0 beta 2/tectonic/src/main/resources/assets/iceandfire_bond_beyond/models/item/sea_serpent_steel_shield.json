@@ -1,0 +1,15 @@
+{
+  "parent": "iceandfire_bond_beyond:item/elemental_tower_shield",
+  "textures": {
+    "plate": "iceandfire_bond_beyond:block/sea_serpent_steel_block",
+    "gem": "minecraft:block/prismarine_bricks"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "iceandfire_bond_beyond:item/sea_serpent_steel_shield_blocking"
+    }
+  ]
+}

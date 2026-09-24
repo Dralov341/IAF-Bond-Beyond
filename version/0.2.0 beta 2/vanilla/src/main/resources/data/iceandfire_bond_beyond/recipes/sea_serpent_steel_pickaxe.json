@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " B ",
+    " B "
+  ],
+  "key": {
+    "I": {
+      "item": "iceandfire_bond_beyond:sea_serpent_steel_ingot"
+    },
+    "B": {
+      "item": "iceandfire_bond_beyond:sea_serpent_bone"
+    }
+  },
+  "result": {
+    "item": "iceandfire_bond_beyond:sea_serpent_steel_pickaxe",
+    "count": 1
+  },
+  "category": "equipment"
+}

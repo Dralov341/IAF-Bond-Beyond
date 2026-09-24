@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "iceandfire_bond_beyond:item/sea_serpent_egg_green_item"
+  }
+}

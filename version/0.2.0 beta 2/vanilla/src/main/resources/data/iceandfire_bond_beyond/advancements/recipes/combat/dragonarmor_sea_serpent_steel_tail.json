@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iceandfire_bond_beyond:sea_serpent_steel_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "iceandfire_bond_beyond:dragonarmor_sea_serpent_steel_tail"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_steel",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "iceandfire_bond_beyond:dragonarmor_sea_serpent_steel_tail"
+    ]
+  }
+}

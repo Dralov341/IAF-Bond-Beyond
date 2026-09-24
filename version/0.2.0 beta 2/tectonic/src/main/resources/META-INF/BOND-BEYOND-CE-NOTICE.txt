@@ -1,0 +1,95 @@
+Ice And Fire: Bond Beyond - 0.2.0-beta.2 armor port
+
+Includes adapted code and assets from Ice And Fire: Community Edition,
+maintained by IAFEnvoy and contributors, derived from Ice and Fire by
+AlexModGuy, Raptorfarian and contributors. Upstream authors retain their rights.
+Upstream project: https://github.com/IAFEnvoy/IceAndFire-CE/tree/1.20.1
+License: GNU Lesser General Public License version 3 (see accompanying texts).
+Source archive SHA-256: 8838f2ced7374b2329b13383c69279b62737d8aae2026c9aacfe7276698f0c0c
+
+Adapted Java sources in upstream common/src/main/java/com/iafenvoy/iceandfire/:
+- data/DragonArmorMaterial.java: Netherite +7 and Dragonsteel +10 per piece.
+- item/armor/ItemDragonArmor.java: adapted through native IAF ItemDragonArmor.
+- entity/EntityDragonBase.java: material protection calculation, implemented
+  as an addition to IAF's native calculation for the new Netherite ordinal.
+- render/entity/layer/LayerDragonArmor.java: per-equipment-slot rendering.
+
+Adapted from Yarn/Architectury/Uranus to Mojang mappings/Forge/Citadel for
+Minecraft 1.20.1 and original Ice and Fire 2.1.13-beta-5. CE is not a dependency.
+Native Dragonsteel item IDs and existing protection logic are retained.
+The renderer reads all three native dragon types and supports mixed armor.
+Netherite uses native dragon inventory, equipment synchronization and NBT.
+Netherite items additionally survive fire/lava when dropped.
+
+Resources ported from common/src/main/resources:
+- 16 textures/models/dragon_armor/armor_*_netherite or *_dragon_steel_* PNGs.
+- 16 Netherite/Dragonsteel item PNGs, now repainted on native IAF silhouettes
+  with colors sampled from the corresponding CE items (see item rework below).
+- Item models and 16 recipes, with IDs adapted to this addon/native IAF.
+- Dragon armor item tags adapted to the original registry IDs.
+Recipe ingredients use ingots instead of blocks. Native Dragonsteel recipe
+IDs are retained so the new recipes replace their expensive block recipes.
+
+New Sea Serpent Netherite armor is a Bond Beyond addition: existing armor
+geometry and UVs, CE Netherite palette, unchanged leather and alpha mask.
+Old Sea Serpent armor IDs 1-7 stay unchanged; Netherite is appended as ID 8.
+Its full-set armor bonus is 29 (1 + 4 * 7), following the existing tier scale.
+Its smithing recipe upgrades Diamond Sea Serpent Armor with one Netherite
+Ingot and a Netherite Upgrade Smithing Template.
+
+2026-09-13: species-specific dragon armor fit correction (0.2.0 Beta 2).
+The original IAF models and their matching CE models are identical, but the
+fire, ice and lightning species do not share all dimensions or texture UVs.
+Ice has a wider Head/HeadFront; lightning has a longer Head/HeadFront, different
+horns and different body detail UVs. A common fire armor atlas is insufficient.
+DragonArmorLayer now selects original IAF textures for all native materials,
+including Dragonsteel, using EnumDragonTextures for the actual dragon species.
+Native Dragonsteel item IDs, protection values and ingot recipes are unchanged.
+Netherite keeps CE textures where the original models share a fitting layout.
+New armor_head_netherite_icedragon.png and *_lightningdragon.png use the native
+species-specific Dragonsteel head coverage with colors from CE Netherite.
+New armor_body_netherite_lightningdragon.png applies only the species-specific
+body coverage changes identified in the original IAF fire/lightning atlases.
+No dragon geometry, UV coordinates, item textures or Sea Serpent assets change.
+
+2026-09-13: dragon armor item artwork and empty equipment-slot rework.
+All 16 Netherite/Dragonsteel item sprites use the original IAF iron head, neck,
+body and tail item shapes, 16x16 resolution, original alpha masks, and original
+light/shadow cluster positions. Metal colors come directly from each material's
+CE item palette. The body seat uses the shared CE leather palette in IAF's
+original seat position. These sprites replace the earlier direct CE copies;
+upstream code/asset credits and license texts are retained.
+SeaSerpentScreen uses the vanilla Minecraft 1.20.1 horse inventory's gray saddle
+placeholder, from minecraft:textures/gui/container/horse.png, only when the
+equipment slot is empty. The vanilla image is referenced at runtime, not copied
+into this addon. Equipping armor hides the placeholder and shows the real item.
+The preceding species-specific model armor fixes remain unchanged.
+
+Sea Serpent Steel / remains additions:
+- Sea Serpent proportions, skull mesh/UV and reference art adapted from original Ice and Fire 2.1.13-beta-5.
+- New ribs/spine fit the Sea Serpent chain; pale shading references IAF ice-dragon skeleton textures.
+- Player armor combines IAF Dragonsteel Ice visor/shoulders/skirts with Tide Guardian fins; a new 128x64 atlas separates their UV regions.
+- Dragon Seeker ranges, filters and recipes ported from CE ItemDragonSeeker. Item art uses the original IAF Dragon Staff outline and palettes sampled from CE.
+- Sea Serpent Steel, fillets, blood, forge art and material variants redrawn/recolored on pixel grids with Pillow.
+Original authors retain credit; see the included upstream license texts.
+
+Underwater forge and field guide:
+- Seven Sea Serpent brick colors reuse the original IAF ice-forge brick grid,
+  repainted with palettes sampled from the matching Sea Serpent skins.
+- Core, input and active animation art adapt original IAF ice-forge textures.
+- The 3x3x3 frame uses same-color bricks and serpent bone corners. Water must
+  touch all four outside faces and cover the roof; stage 3+ breath powers it.
+- The bilingual Vietnamese/English field guide introduces Gravtian (Vietnam),
+  credits the source projects and documents implemented Bond Beyond content.
+  Its replacement item artwork adapts the original IAF bestiary icon.
+
+Dragonsteel electrical arcs (2026-09-21):
+- Chain damage adapted from CE item/tool/DragonSteelOverrides.java.
+- Electrical appearance and lifetime adapted from CE mixin/WorldRendererMixin.java.
+- Uses original IAF LightningBoltData/LightningRender at runtime, retaining their
+  upstream permission notice; those renderer files are not duplicated here.
+- Forge S2C packet and world-render event replace CE networking/Mixin glue.
+- Retains CE defaults (range 10, maximum 10 mobs, damage factor 0.5), with
+  enqueue deduplication, attacker damage attribution, and ally/owner exclusions.
+- Sea Steel pixel palettes deepen existing shadows; original asset credits above
+  also apply to the recolored equipment, armor and material icons.

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "iceandfire_bond_beyond:item/dragon_seeker"
+  }
+}

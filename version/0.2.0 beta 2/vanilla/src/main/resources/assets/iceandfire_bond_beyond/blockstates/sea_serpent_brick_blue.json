@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "iceandfire_bond_beyond:block/sea_serpent_brick_blue"
+    },
+    "active=true": {
+      "model": "iceandfire_bond_beyond:block/sea_serpent_brick_blue_active"
+    }
+  }
+}

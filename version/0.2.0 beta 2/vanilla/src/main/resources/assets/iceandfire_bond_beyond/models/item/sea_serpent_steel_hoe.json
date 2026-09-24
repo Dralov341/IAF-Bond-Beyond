@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "iceandfire_bond_beyond:item/sea_serpent_steel_hoe"
+  }
+}

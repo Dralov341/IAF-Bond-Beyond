@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "iceandfire:dragonarmor_iron_neck",
+    "iceandfire:dragonarmor_gold_neck",
+    "iceandfire:dragonarmor_diamond_neck",
+    "iceandfire:dragonarmor_silver_neck",
+    "iceandfire:dragonarmor_copper_neck",
+    "iceandfire:dragonarmor_dragonsteel_fire_neck",
+    "iceandfire:dragonarmor_dragonsteel_ice_neck",
+    "iceandfire:dragonarmor_dragonsteel_lightning_neck",
+    "iceandfire_bond_beyond:dragonarmor_netherite_neck"
+  ]
+}
