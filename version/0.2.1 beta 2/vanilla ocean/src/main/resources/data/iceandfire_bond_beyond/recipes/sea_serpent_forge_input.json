@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BFB",
+    "FWF",
+    "BFB"
+  ],
+  "key": {
+    "B": {
+      "item": "iceandfire_bond_beyond:sea_serpent_bone"
+    },
+    "F": {
+      "item": "iceandfire:sea_serpent_fang"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "iceandfire_bond_beyond:sea_serpent_forge_input",
+    "count": 1
+  },
+  "category": "building"
+}

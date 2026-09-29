@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "BSB",
+    "SBS"
+  ],
+  "key": {
+    "S": {
+      "item": "iceandfire:sea_serpent_scales_teal"
+    },
+    "B": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "iceandfire_bond_beyond:sea_serpent_brick_teal",
+    "count": 4
+  },
+  "category": "building"
+}

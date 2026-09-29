@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "iceandfire:dragonarmor_iron_body",
+    "iceandfire:dragonarmor_gold_body",
+    "iceandfire:dragonarmor_diamond_body",
+    "iceandfire:dragonarmor_silver_body",
+    "iceandfire:dragonarmor_copper_body",
+    "iceandfire:dragonarmor_dragonsteel_fire_body",
+    "iceandfire:dragonarmor_dragonsteel_ice_body",
+    "iceandfire:dragonarmor_dragonsteel_lightning_body",
+    "iceandfire_bond_beyond:dragonarmor_netherite_body"
+  ]
+}

@@ -1,0 +1,897 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.8/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+MixinGradle did not locate the diffplug APT plugin, skipping eclipse task configuration
+
+> Task :clean
+> Task :downloadMcpConfig
+> Task :extractSrg
+> Task :createMcpToSrg
+
+> Task :compileJava
+Note: SpongePowered MIXIN Annotation Processor Version=0.8.5 (MixinGradle Version=0.7)
+Note: Supported obfuscation types: ObfuscationServiceMCP supports [notch] ObfuscationServiceFG3 supports [searge]
+Note: Loading searge mappings from /workspace/scratch/47f485b96635/work-lightning/combat-test/build/createMcpToSrg/output.tsrg
+Note: Writing refmap to /workspace/scratch/47f485b96635/work-lightning/combat-test/build/tmp/compileJava/compileJava-refmap.json
+Note: Writing refmap to /workspace/scratch/47f485b96635/work-lightning/combat-test/build/tmp/compileJava/compileJava-refmap.json
+Note: Writing searge composite mappings to /workspace/scratch/47f485b96635/work-lightning/combat-test/build/tmp/compileJava/compileJava-mappings.tsrg
+Note: Writing refmap to /workspace/scratch/47f485b96635/work-lightning/combat-test/build/tmp/compileJava/compileJava-refmap.json
+Note: Writing refmap to /workspace/scratch/47f485b96635/work-lightning/combat-test/build/tmp/compileJava/compileJava-refmap.json
+Note: Writing searge composite mappings to /workspace/scratch/47f485b96635/work-lightning/combat-test/build/tmp/compileJava/compileJava-mappings.tsrg
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :processResources
+> Task :classes
+> Task :createSrgToMcp
+> Task :downloadMCMeta
+> Task :extractNatives
+> Task :makeSrcDirs
+> Task :prepareRuns
+> Task :prepareRunGameTestServer
+> Task :prepareRunGameTestServerCompile
+
+> Task :runGameTestServer
+2026-09-29 13:28:15,257 main WARN Advanced terminal features are not available in this environment
+[13:28:15] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgegametestserveruserdev, --gameDir, ., --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, iceandfire_bond_beyond.mixins.json]
+[13:28:15] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20 by Ubuntu; OS Linux arch amd64 version 6.18.44
+[13:28:15] [main/WARN] [ne.mi.fm.lo.FMLConfig/CORE]: Configuration file /workspace/scratch/47f485b96635/work-lightning/combat-test/build/gametest-world/config/fml.toml is not correct. Correcting
+[13:28:15] [main/INFO] [ne.mi.fm.lo.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[13:28:15] [main/INFO] [ne.mi.fm.lo.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[13:28:15] [main/INFO] [ne.mi.fm.lo.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[13:28:15] [main/INFO] [ne.mi.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgegametestserveruserdev
+[13:28:15] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspace/scratch/47f485b96635/work-lightning/build-tools/gradle-cache/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=SERVER
+[13:28:15] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /workspace/scratch/47f485b96635/work-lightning/build-tools/gradle-cache/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.3.5/4c589c051ef533f8898fb5d83514d4186faa0eeb/javafmllanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[13:28:15] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /workspace/scratch/47f485b96635/work-lightning/build-tools/gradle-cache/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.3.5/8251eee89645828a05f3b04f5df8945baa0743c4/lowcodelanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[13:28:15] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /workspace/scratch/47f485b96635/work-lightning/build-tools/gradle-cache/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.3.5/53971d6fe08ae7ce74a72fa7d14a82de70a8bd1/mclanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[13:28:15] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /workspace/scratch/47f485b96635/work-lightning/build-tools/gradle-cache/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.3.5/cc377ceca3274bd1e429c0da17f73720ce29a4d6/fmlcore-1.20.1-47.3.5.jar is missing mods.toml file
+[13:28:15] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[13:28:17] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13:28:17] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgegametestserveruserdev' with arguments [--gameDir, .]
+[13:28:17] [main/WARN] [mixin/]: Reference map 'iceandfire_bond_beyond.refmap.json' for iceandfire_bond_beyond.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:17] [main/INFO] [mixin/]: Remapping refMap spartanfire.refmap.json using /workspace/scratch/47f485b96635/work-lightning/combat-test/build/createSrgToMcp/output.srg
+[13:28:17] [main/INFO] [mixin/]: Remapping refMap spartantoolkit.refmap.json using /workspace/scratch/47f485b96635/work-lightning/combat-test/build/createSrgToMcp/output.srg
+[13:28:17] [main/INFO] [mixin/]: Remapping refMap jade.refmap.json using /workspace/scratch/47f485b96635/work-lightning/combat-test/build/createSrgToMcp/output.srg
+[13:28:17] [main/INFO] [mixin/]: Remapping refMap spartanfireextras.refmap.json using /workspace/scratch/47f485b96635/work-lightning/combat-test/build/createSrgToMcp/output.srg
+[13:28:17] [main/INFO] [mixin/]: Remapping refMap spartanweaponry.mixins.refmap.json using /workspace/scratch/47f485b96635/work-lightning/combat-test/build/createSrgToMcp/output.srg
+[13:28:17] [main/INFO] [mixin/]: Remapping refMap citadel.refmap.json using /workspace/scratch/47f485b96635/work-lightning/combat-test/build/createSrgToMcp/output.srg
+[13:28:17] [main/INFO] [mixin/]: Remapping refMap iceandfire.refmap.json using /workspace/scratch/47f485b96635/work-lightning/combat-test/build/createSrgToMcp/output.srg
+[13:28:17] [main/ERROR] [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/block/model/ItemModelGenerator for invalid dist DEDICATED_SERVER
+[13:28:17] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/block/model/ItemModelGenerator (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/block/model/ItemModelGenerator for invalid dist DEDICATED_SERVER)
+[13:28:17] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.block.model.ItemModelGenerator was not found spartanweaponry.mixins.json:ItemModelGeneratorMixin
+[13:28:18] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[13:28:22] [modloading-worker-0/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
+[13:28:22] [modloading-worker-0/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v47.3.5 Initialized
+[13:28:23] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[13:28:23] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
+[13:28:23] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file /workspace/scratch/47f485b96635/work-lightning/combat-test/build/gametest-world/config/spartanfireextras-common.toml is not correct. Correcting
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragonbone Chain Damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragonsteel Chain Damage was corrected from null to its default, 8.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragonbone Max Chain Targets was corrected from null to its default, 6. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragonsteel Max Chain Targets was corrected from null to its default, 12. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragonbone Chain Range was corrected from null to its default, 12.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragonsteel Chain Range was corrected from null to its default, 24.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragonbone Flaming Surge Damage was corrected from null to its default, 3.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragonsteel Flaming Surge Damage was corrected from null to its default, 5.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Flaming Surge Duration was corrected from null to its default, 60. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file /workspace/scratch/47f485b96635/work-lightning/combat-test/build/gametest-world/config/citadel-common.toml is not correct. Correcting
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.Track Entities was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.Skip Datapack Warnings was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.chunkGenSpawnModifier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.April Fools Content was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file /workspace/scratch/47f485b96635/work-lightning/combat-test/build/gametest-world/config/spartanweaponry-common.toml is not correct. Correcting
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key dagger was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key dagger.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key dagger.speed was corrected from null to its default, 2.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key dagger.base_damage was corrected from null to its default, 2.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key dagger.damage_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key parrying_dagger was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key parrying_dagger.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key parrying_dagger.speed was corrected from null to its default, 2.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key parrying_dagger.base_damage was corrected from null to its default, 2.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key parrying_dagger.damage_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key longsword was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key longsword.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key longsword.speed was corrected from null to its default, 1.399999976158142. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key longsword.base_damage was corrected from null to its default, 4.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key longsword.damage_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key katana was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key katana.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key katana.speed was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key katana.base_damage was corrected from null to its default, 3.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key katana.damage_multiplier was corrected from null to its default, 0.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key saber was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key saber.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key saber.speed was corrected from null to its default, 1.600000023841858. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key saber.base_damage was corrected from null to its default, 3.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key saber.damage_multiplier was corrected from null to its default, 0.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key rapier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key rapier.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key rapier.speed was corrected from null to its default, 2.4000000953674316. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key rapier.base_damage was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key rapier.damage_multiplier was corrected from null to its default, 0.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key greatsword was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key greatsword.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key greatsword.speed was corrected from null to its default, 1.399999976158142. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key greatsword.base_damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key greatsword.damage_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key club was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key club.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key club.speed was corrected from null to its default, 1.2999999523162842. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key club.base_damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key club.damage_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key cestus was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key cestus.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key cestus.speed was corrected from null to its default, 3.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key cestus.base_damage was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key cestus.damage_multiplier was corrected from null to its default, 0.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key battle_hammer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key battle_hammer.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key battle_hammer.speed was corrected from null to its default, 0.800000011920929. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key battle_hammer.base_damage was corrected from null to its default, 5.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key battle_hammer.damage_multiplier was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key warhammer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key warhammer.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key warhammer.speed was corrected from null to its default, 1.100000023841858. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key warhammer.base_damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key warhammer.damage_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spear was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spear.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spear.speed was corrected from null to its default, 1.399999976158142. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spear.base_damage was corrected from null to its default, 5.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spear.damage_multiplier was corrected from null to its default, 0.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key halberd was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key halberd.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key halberd.speed was corrected from null to its default, 1.2000000476837158. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key halberd.base_damage was corrected from null to its default, 5.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key halberd.damage_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key pike was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key pike.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key pike.speed was corrected from null to its default, 1.399999976158142. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key pike.base_damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key pike.damage_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key lance was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key lance.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key lance.speed was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key lance.base_damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key lance.damage_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key longbow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key longbow.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key heavy_crossbow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key heavy_crossbow.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key throwing_knife was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key throwing_knife.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key throwing_knife.speed was corrected from null to its default, 2.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key throwing_knife.base_damage was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key throwing_knife.damage_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key throwing_knife.charge_ticks was corrected from null to its default, 5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tomahawk was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tomahawk.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tomahawk.speed was corrected from null to its default, 0.8999999761581421. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tomahawk.base_damage was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tomahawk.damage_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tomahawk.charge_ticks was corrected from null to its default, 8. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key javelin was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key javelin.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key javelin.speed was corrected from null to its default, 1.2000000476837158. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key javelin.base_damage was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key javelin.damage_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key javelin.charge_ticks was corrected from null to its default, 10. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key boomerang was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key boomerang.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key boomerang.speed was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key boomerang.base_damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key boomerang.damage_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key boomerang.charge_ticks was corrected from null to its default, 5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key battleaxe was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key battleaxe.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key battleaxe.speed was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key battleaxe.base_damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key battleaxe.damage_multiplier was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key flanged_mace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key flanged_mace.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key flanged_mace.speed was corrected from null to its default, 1.2000000476837158. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key flanged_mace.base_damage was corrected from null to its default, 3.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key flanged_mace.damage_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key glaive was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key glaive.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key glaive.speed was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key glaive.base_damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key glaive.damage_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key quarterstaff was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key quarterstaff.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key quarterstaff.speed was corrected from null to its default, 1.399999976158142. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key quarterstaff.base_damage was corrected from null to its default, 3.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key quarterstaff.damage_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key scythes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key scythes.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key scythes.speed was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key scythes.base_damage was corrected from null to its default, 5.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key scythes.damage_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key copper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key copper.base_damage was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key copper.durability was corrected from null to its default, 200. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key copper.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tin was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tin.base_damage was corrected from null to its default, 1.75. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tin.durability was corrected from null to its default, 180. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tin.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key bronze was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key bronze.base_damage was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key bronze.durability was corrected from null to its default, 320. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key bronze.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key steel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key steel.base_damage was corrected from null to its default, 2.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key steel.durability was corrected from null to its default, 480. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key steel.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key silver was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key silver.base_damage was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key silver.durability was corrected from null to its default, 48. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key silver.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key electrum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key electrum.base_damage was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key electrum.durability was corrected from null to its default, 180. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key electrum.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key lead was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key lead.base_damage was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key lead.durability was corrected from null to its default, 240. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key lead.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key nickel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key nickel.base_damage was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key nickel.durability was corrected from null to its default, 200. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key nickel.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key invar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key invar.base_damage was corrected from null to its default, 2.25. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key invar.durability was corrected from null to its default, 440. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key invar.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key constantan was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key constantan.base_damage was corrected from null to its default, 2.25. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key constantan.durability was corrected from null to its default, 300. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key constantan.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key platinum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key platinum.base_damage was corrected from null to its default, 3.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key platinum.durability was corrected from null to its default, 1024. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key platinum.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key aluminum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key aluminum.base_damage was corrected from null to its default, 2.125. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key aluminum.durability was corrected from null to its default, 400. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key aluminum.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key explosives was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key explosives.disable_recipe was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key explosives.disable_terrain_damage was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key explosives.fuse_ticks_dynamite was corrected from null to its default, 60. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key explosives.explosion_strength_dynamite was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.disable_new_arrow_recipes was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.disable_copper_ammo_recipes was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.disable_diamond_ammo_recipes was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.disable_netherite_ammo_recipes was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.disable_quiver_recipes was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.wood_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.wood_arrow.base_damage was corrected from null to its default, 0.20000000298023224. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.wood_arrow.range_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_arrow.base_damage was corrected from null to its default, 2.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_arrow.range_multiplier was corrected from null to its default, 0.8500000238418579. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.iron_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.iron_arrow.base_damage was corrected from null to its default, 3.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.iron_arrow.range_multiplier was corrected from null to its default, 0.75. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_arrow.base_damage was corrected from null to its default, 3.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_arrow.range_multiplier was corrected from null to its default, 1.25. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_arrow.base_damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_arrow.range_multiplier was corrected from null to its default, 1.25. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.bolt was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.bolt.base_damage was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.bolt.range_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.bolt.armor_piercing_factor was corrected from null to its default, 0.25. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_bolt was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_bolt.base_damage was corrected from null to its default, 3.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_bolt.range_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_bolt.armor_piercing_factor was corrected from null to its default, 0.125. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_bolt was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_bolt.base_damage was corrected from null to its default, 5.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_bolt.range_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_bolt.armor_piercing_factor was corrected from null to its default, 0.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_bolt was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_bolt.base_damage was corrected from null to its default, 5.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_bolt.range_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_bolt.armor_piercing_factor was corrected from null to its default, 0.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.explosive was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.explosive.base_damage was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.explosive.range_multiplier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key projectiles.quiver_bow_blacklist was corrected from null to its default, [botania:crystal_bow, iceandfire:dragonbone_bow]. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot.add_iron_weapons_to_village_blacksmith was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot.add_bow_and_crossbow_loot_to_village_fletcher was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot.add_diamond_weapons_to_end_city was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot.zombie_with_melee_spawn_chance_normal was corrected from null to its default, 0.05000000074505806. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot.zombie_with_melee_spawn_chance_hard was corrected from null to its default, 0.25. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot.disable_spawning_zombie_with_weapon was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot.skeleton_with_longbow_spawn_chance_normal was corrected from null to its default, 0.05000000074505806. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot.skeleton_with_longbow_spawn_chance_hard was corrected from null to its default, 0.25. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot.disable_spawning_skeleton_with_longbow was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key loot.disable_new_head_drops was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key trading was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key trading.disable was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.chest_multiplier was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.head_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.riding_multiplier was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.throw_multiplier was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.throw_javelin_multiplier was corrected from null to its default, 3.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.unarmored_multiplier was corrected from null to its default, 3.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.check_armor_value was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.max_armor_value was corrected from null to its default, 0.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.undead_multiplier was corrected from null to its default, 1.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.backstab_multiplier was corrected from null to its default, 3.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_absorption was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.damage_absorption.damage_absorption_factor was corrected from null to its default, 0.25. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.reach was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.reach.reach1_value was corrected from null to its default, 6.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.reach.reach2_value was corrected from null to its default, 7.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.sweep was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.sweep.sweep2_percentage was corrected from null to its default, 0.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.sweep.sweep3_percentage was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.armor_pierce was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.armor_pierce.percentage was corrected from null to its default, 50.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.quick_strike was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.quick_strike.hurt_resistance_ticks was corrected from null to its default, 14. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.decapitate was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key traits.decapitate.skull_drop_percentage was corrected from null to its default, 25.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key oil was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key oil.disable_oil_recipes was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key oil.oil_uses_normal was corrected from null to its default, 20. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key oil.oil_uses_long was corrected from null to its default, 30. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key oil.oil_damage_modifier_normal was corrected from null to its default, 0.20000000298023224. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key oil.oil_damage_modifier_strong was corrected from null to its default, 0.4000000059604645. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key oil.potion_oil_duration_modifier was corrected from null to its default, 0.25. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key oil.potion_oil_blacklist was corrected from null to its default, []. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key oil.potion_oil_whitelist was corrected from null to its default, []. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key jei was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key jei.force_show_disabled_items was corrected from null to its default, false. 
+[13:28:23] [Thread-1/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /workspace/scratch/47f485b96635/work-lightning/combat-test/build/gametest-world/config/spartanweaponry-common.toml is not correct. Correcting
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file /workspace/scratch/47f485b96635/work-lightning/combat-test/build/gametest-world/config/iceandfire-common.toml is not correct. Correcting
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Generate Dragon Skeletons was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Generate Dragon Skeleton Chance was corrected from null to its default, 300. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Generate Dragon Cave Chance was corrected from null to its default, 180. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Generate Dragon Roost Chance was corrected from null to its default, 360. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Dragon Den Gold Amount was corrected from null to its default, 4. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Dragon Cave Ore Ratio was corrected from null to its default, 45. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Dangerous World Gen Dist From Spawn was corrected from null to its default, 800. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Dangerous World Gen Dist Seperation was corrected from null to its default, 300. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Generate Glaciers was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Glacier Spawn Weight was corrected from null to its default, 4. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Generate Mausoleums was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Generate Graveyards was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Generate Gorgon Temple was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Griefing was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Griefing.Dragon Griefing was corrected from null to its default, 0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Griefing.Tamed Dragon Griefing was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Griefing.Dragon Block Breaking Drop Chance was corrected from null to its default, 0.10000000149011612. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Egg Hatch Time was corrected from null to its default, 7200. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Flap Noise Distance was corrected from null to its default, 4. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Flute Distance was corrected from null to its default, 4. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Health was corrected from null to its default, 500.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Attack Damage was corrected from null to its default, 17. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Attack Damage(Fire breath) was corrected from null to its default, 2.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Attack Damage(Ice breath) was corrected from null to its default, 2.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Attack Damage(Lightning breath) was corrected from null to its default, 3.5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Flight Speed Modifier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Moved Wrongly Error Fix was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Max Dragon Flight Height was corrected from null to its default, 256. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Gold Search Length was corrected from null to its default, 30. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Bite Heal was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragons Despawn was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Tamed Dragons Sleep was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragons Dig When Stuck was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragons Drop Skull was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragons Drop Heart was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragons Drop Blood was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Explosive Dragon Breath was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Target Search Length was corrected from null to its default, 128. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Wander From Home Distance was corrected from null to its default, 40. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Hunger Tick Rate was corrected from null to its default, 3000. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Block Break Cooldown was corrected from null to its default, 5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Villagers Fear Dragons was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Animals Fear Dragons was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Intelligent Dragon Pathfinding was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Pixies was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Pixies.Spawn Pixies Chance was corrected from null to its default, 60. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Pixies.Pixie Village Size was corrected from null to its default, 5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Pixies.Pixies Steal Items was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Spawn Cyclops Cave Chance was corrected from null to its default, 100. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Spawn Wandering Cyclops Chance was corrected from null to its default, 100. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Cyclops Max Health was corrected from null to its default, 150.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Cyclopes Sheep Search Length was corrected from null to its default, 17. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Cyclops Attack Strength was corrected from null to its default, 15.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Cyclops Bite Strength was corrected from null to its default, 40.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Cyclops Griefing was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens.Siren Max Health was corrected from null to its default, 50.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens.Use Siren Shader was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens.Spawn Sirens Chance was corrected from null to its default, 400. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens.Siren Max Sing Time was corrected from null to its default, 12000. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens.Siren Time Between Songs was corrected from null to its default, 2000. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms.Death Worm Target Search Length was corrected from null to its default, 64. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms.Death Worm Base Health was corrected from null to its default, 10.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms.Death Worm Base Attack Strength was corrected from null to its default, 3.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms.Death Worms Target Monsters was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms.Death Worm Spawn Weight was corrected from null to its default, 30. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice.Cockatrice Health was corrected from null to its default, 40.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice.Cockatrice chicken Search Length was corrected from null to its default, 30. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice.Chickens Lay Rotten Eggs was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice.Spawn Cockatrices was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice.Cockatrice Spawn Weight was corrected from null to its default, 4. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Bird Target Search Length was corrected from null to its default, 64. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Bird Feather Drop Chance was corrected from null to its default, 25. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Bird Feather Attack Strength was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Bird Flock Length was corrected from null to its default, 40. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Max Stymphalian Bird Flight Height was corrected from null to its default, 80. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Birds drop ore dict items was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Birds Target Animals was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Spawn Stymhphalian Bird Chance was corrected from null to its default, 100. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls.Spawn Trolls was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls.Trolls Drop Weapon was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls.Troll Spawn Weight was corrected from null to its default, 40. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls.Troll Max Health was corrected from null to its default, 50.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls.Troll Attack Strength was corrected from null to its default, 10.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Gestation Length was corrected from null to its default, 2500. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Hatch Length was corrected from null to its default, 35000. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Colony Gen Chance was corrected from null to its default, 150. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Colony Max Size was corrected from null to its default, 80. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Base Attack Strength was corrected from null to its default, 3.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Maximum Wander Radius was corrected from null to its default, 50. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Hive Ignore Daytime was corrected from null to its default, false. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Spawn Amphitheres was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Spawn Weight was corrected from null to its default, 50. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Villager Search Length was corrected from null to its default, 64. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Tame Time was corrected from null to its default, 400. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Flight Speed was corrected from null to its default, 1.75. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Max Health was corrected from null to its default, 50.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Attack Strength was corrected from null to its default, 7.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.SeaSerpents was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.SeaSerpents.Spawn Sea Serpent Chance was corrected from null to its default, 250. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.SeaSerpents.Sea Serpent Griefing was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.SeaSerpents.Sea Serpent Base Health was corrected from null to its default, 20.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.SeaSerpents.Sea Serpent Base Attack Strength was corrected from null to its default, 4.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippocampus was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippocampus.Spawn Hippocampus Chance was corrected from null to its default, 40. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippocampus.Hippocampus Swim Speed Modifier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippogryph was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippogryph.Spawn Hippogryphs was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippogryph.Hippogryph Spawn Weight was corrected from null to its default, 2. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippogryph.Hippogryph Flight Speed Modifier was corrected from null to its default, 1.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Gorgons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Gorgons.Gorgon Max Health was corrected from null to its default, 100.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Spawn Liches was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Lich Spawn Weight was corrected from null to its default, 2. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Lich Spawn Chance was corrected from null to its default, 30. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Hydra Max Health was corrected from null to its default, 250.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Hydra Caves Gen Chance was corrected from null to its default, 60. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Ghost Max Health was corrected from null to its default, 30.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Ghost Attack Strength was corrected from null to its default, 3.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Ghost Spawn from PvP deaths was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Villager Scribe House Weight was corrected from null to its default, 5. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Allow Attribute Overriding was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Dragonsteel Sword Base Attack Strength was corrected from null to its default, 25.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Dragonsteel Base Armor was corrected from null to its default, 12. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Dragonsteel Base Armor Toughness was corrected from null to its default, 6.0. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Dragonsteel Base Durability was corrected from null to its default, 8000. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Dragonsteel Base Durability Equipment was corrected from null to its default, 8000. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Weezer was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Easter Egg Tinkers Tool Disarm chance was corrected from null to its default, 0.20000000298023224. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Chunk Load Summon Crystal was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Dragon Bone Fire Abilities was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Dragon Bone Ice Abilities was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Items.Dragon Bone Lightning Abilities was corrected from null to its default, true. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Pathfinding was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Pathfinding.Dragon Pathfinding Threads was corrected from null to its default, 3. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Pathfinding.Dragon Max Pathfinding Nodes was corrected from null to its default, 5000. 
+[13:28:23] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key Pathfinding.Debug Pathfinding Mode was corrected from null to its default, false. 
+[13:28:23] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+java.net.UnknownHostException: raw.githubusercontent.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:572)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:533)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:638)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:267)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:381)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:196)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1262)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1148)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1077)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:181)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1717)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1641)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+	at TRANSFORMER/citadel@2.5.3/com.github.alexthe666.citadel.web.WebHelper.getURLContents(WebHelper.java:21)
+	at TRANSFORMER/citadel@2.5.3/com.github.alexthe666.citadel.Citadel.setup(Citadel.java:143)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+[13:28:24] [modloading-worker-0/WARN] [citadel/]: Failed to load patreon contributor perks
+	at LAYER PLUGIN/javafmllanguage@1.20.1-47.3.5/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114)
+	at LAYER PLUGIN/fmlcore@1.20.1-47.3.5/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:125)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+java.lang.NullPointerException: Cannot invoke "java.lang.ClassLoader.getResourceAsStream(String)" because the return value of "java.lang.Class.getClassLoader()" is null
+	at TRANSFORMER/citadel@2.5.3/com.github.alexthe666.citadel.web.WebHelper.getURLContents(WebHelper.java:30)
+	at TRANSFORMER/citadel@2.5.3/com.github.alexthe666.citadel.Citadel.setup(Citadel.java:143)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at LAYER PLUGIN/javafmllanguage@1.20.1-47.3.5/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114)
+	at LAYER PLUGIN/fmlcore@1.20.1-47.3.5/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:125)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[13:28:24] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13:28:24] [Forge Version Check/WARN] [ne.mi.fm.VersionChecker/]: Failed to process update information
+java.net.ConnectException: null
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:900) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.3.5.jar%23185!/:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.3.5.jar%23185!/:?] {}
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.5.jar%23185!/:?] {}
+Caused by: java.net.ConnectException
+	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1107) ~[java.net.http:?] {}
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:203) ~[java.net.http:?] {}
+	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:450) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:133) ~[java.net.http:?] {}
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:98) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:374) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:567) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:411) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:403) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:430) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:471) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340) ~[?:?] {}
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:461) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:350) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?] {}
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:174) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673) ~[?:?] {}
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:303) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:991) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:878) ~[java.net.http:?] {}
+	... 5 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:159) ~[?:?] {}
+	at sun.nio.ch.Net.checkAddress(Net.java:167) ~[?:?] {}
+	at sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816) ~[?:?] {}
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839) ~[?:?] {}
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:187) ~[java.net.http:?] {}
+	at java.security.AccessController.doPrivileged(AccessController.java:569) ~[?:?] {}
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:189) ~[java.net.http:?] {}
+	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:450) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:133) ~[java.net.http:?] {}
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:98) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:374) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:567) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:411) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:403) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:430) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:471) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340) ~[?:?] {}
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:461) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:350) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?] {}
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:174) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673) ~[?:?] {}
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:303) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:991) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:878) ~[java.net.http:?] {}
+	... 5 more
+[13:28:24] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[13:28:24] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[13:28:24] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[13:28:24] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.iceandfirebondbeyond.compat.jade.BondBeyondJadePlugin
+[13:28:24] [modloading-worker-0/INFO] [Jade/]: Dev environment detected, loading test plugin
+[13:28:25] [main/ERROR] [minecraft/Settings]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?] {}
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?] {}
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?] {}
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218) ~[?:?] {}
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?] {}
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?] {}
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?] {}
+	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?] {}
+	at net.minecraft.server.dedicated.Settings.loadFromFile(Settings.java:36) ~[forge-1.20.1-47.3.5_mapped_official_1.20.1.jar:?] {re:classloading}
+	at net.minecraft.server.dedicated.DedicatedServerProperties.fromFile(DedicatedServerProperties.java:137) ~[forge-1.20.1-47.3.5_mapped_official_1.20.1.jar:?] {re:classloading}
+	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:12) ~[forge-1.20.1-47.3.5_mapped_official_1.20.1.jar:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:126) ~[forge-1.20.1-47.3.5_mapped_official_1.20.1.jar:?] {re:classloading}
+	at net.minecraftforge.gametest.GameTestMain.main(GameTestMain.java:16) ~[forge-1.20.1-47.3.5_mapped_official_1.20.1.jar:?] {re:classloading}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeGametestUserdevLaunchHandler.devService(ForgeGametestUserdevLaunchHandler.java:16) ~[fmlloader-1.20.1-47.3.5.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.3.5.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+[13:28:25] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:28:25] [Yggdrasil Key Fetcher/ERROR] [mojang/YggdrasilServicesKeyInfo]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:119) ~[authlib-4.0.43.jar%2394!/:?] {}
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:91) ~[authlib-4.0.43.jar%2394!/:?] {}
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:94) ~[authlib-4.0.43.jar%2394!/:?] {}
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.lambda$get$1(YggdrasilServicesKeyInfo.java:81) ~[authlib-4.0.43.jar%2394!/:?] {}
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?] {}
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?] {}
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?] {}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:572) ~[?:?] {}
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?] {}
+	at java.net.Socket.connect(Socket.java:633) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?] {}
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?] {}
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:533) ~[?:?] {}
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:638) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:267) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:381) ~[?:?] {}
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:196) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1307) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1148) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1077) ~[?:?] {}
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:181) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1717) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1641) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?] {}
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-4.0.43.jar%2394!/:?] {}
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:96) ~[authlib-4.0.43.jar%2394!/:?] {}
+	... 9 more
+[13:28:25] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/workspace/scratch/47f485b96635/work-lightning/build-tools/gradle-cache/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.5_mapped_official_1.20.1/forge-1.20.1-47.3.5_mapped_official_1.20.1.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[13:28:25] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/workspace/scratch/47f485b96635/work-lightning/build-tools/gradle-cache/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.5_mapped_official_1.20.1/forge-1.20.1-47.3.5_mapped_official_1.20.1.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[13:28:26] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[13:28:26] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[13:28:26] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[13:28:26] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[13:28:26] [main/INFO] [minecraft/RecipeManager]: Loaded 9 recipes
+[13:28:26] [main/INFO] [minecraft/AdvancementList]: Loaded 2461 advancements
+[13:28:27] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 5.116296ms
+[13:28:27] [main/INFO] [ne.mi.ga.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [iceandfire_bond_beyond]
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/iceandfire_bond_beyond-server.toml is not correct. Correcting
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath.area_damage was corrected from null to its default, true. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath.area_radius_multiplier was corrected from null to its default, 1.0. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath.bubble_size_multiplier was corrected from null to its default, 1.35. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath.spray_bubbles_per_pulse was corrected from null to its default, 12. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath.spray_half_angle_degrees was corrected from null to its default, 12.0. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath.damage_multiplier was corrected from null to its default, 1.0. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath.knockback_strength was corrected from null to its default, 0.12. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath.erosion_enabled was corrected from null to its default, true. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath.erosion_radius_multiplier was corrected from null to its default, 0.75. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key breath.erosion_blocks_per_second was corrected from null to its default, 20. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.base_speed was corrected from null to its default, 1.0. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_temperature_affects_growth was corrected from null to its default, true. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_multipliers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_multipliers.frozen_ocean was corrected from null to its default, 0.75. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_multipliers.deep_frozen_ocean was corrected from null to its default, 0.8. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_multipliers.cold_ocean was corrected from null to its default, 0.85. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_multipliers.deep_cold_ocean was corrected from null to its default, 0.9. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_multipliers.ocean was corrected from null to its default, 1.0. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_multipliers.deep_ocean was corrected from null to its default, 1.05. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_multipliers.lukewarm_ocean was corrected from null to its default, 1.15. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_multipliers.deep_lukewarm_ocean was corrected from null to its default, 1.2. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key growth.ocean_multipliers.warm_ocean was corrected from null to its default, 1.3. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.wild_female_stage_3_drop_chance was corrected from null to its default, 0.25. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.wild_female_stage_4_drop_chance was corrected from null to its default, 0.5. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.wild_female_stage_5_drop_chance was corrected from null to its default, 1.0. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.incubation_speed was corrected from null to its default, 1.0. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.hatch_time_ticks was corrected from null to its default, 0. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.minimum_water_depth was corrected from null to its default, -1. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.pressure_safe_depth was corrected from null to its default, -1. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.pressure_chance_multiplier was corrected from null to its default, 1.0. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.ocean_multipliers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.ocean_multipliers.frozen_ocean was corrected from null to its default, 0.75. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.ocean_multipliers.deep_frozen_ocean was corrected from null to its default, 0.8. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.ocean_multipliers.cold_ocean was corrected from null to its default, 0.85. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.ocean_multipliers.deep_cold_ocean was corrected from null to its default, 0.9. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.ocean_multipliers.ocean was corrected from null to its default, 1.0. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.ocean_multipliers.deep_ocean was corrected from null to its default, 1.05. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.ocean_multipliers.lukewarm_ocean was corrected from null to its default, 1.15. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.ocean_multipliers.deep_lukewarm_ocean was corrected from null to its default, 1.2. 
+[13:28:27] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key eggs.ocean_multipliers.warm_ocean was corrected from null to its default, 1.3. 
+[13:28:40] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[13:28:40] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:40] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:41] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:41] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:42] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:42] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:43] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:43] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:44] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:44] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:45] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:45] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:46] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:46] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[13:28:47] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 10%
+[13:28:47] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 11%
+[13:28:48] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 11%
+[13:28:48] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 11%
+[13:28:49] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 16%
+[13:28:49] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 17%
+[13:28:50] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 17%
+[13:28:50] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 17%
+[13:28:51] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 17%
+[13:28:51] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 17%
+[13:28:52] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 17%
+[13:28:52] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 17%
+[13:28:53] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 17%
+[13:28:53] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 30%
+[13:28:54] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 31%
+[13:28:54] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 32%
+[13:28:55] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 34%
+[13:28:55] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 34%
+[13:28:56] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 35%
+[13:28:56] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 35%
+[13:28:57] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 35%
+[13:28:57] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 35%
+[13:28:58] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 35%
+[13:28:58] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 35%
+[13:28:59] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 42%
+[13:28:59] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 48%
+[13:29:00] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[13:29:00] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 54%
+[13:29:01] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 55%
+[13:29:01] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 56%
+[13:29:02] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 56%
+[13:29:02] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 61%
+[13:29:03] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 63%
+[13:29:03] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 63%
+[13:29:04] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 68%
+[13:29:04] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 68%
+[13:29:05] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 68%
+[13:29:05] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 68%
+[13:29:06] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 75%
+[13:29:06] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 77%
+[13:29:07] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 80%
+[13:29:07] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 82%
+[13:29:08] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 83%
+[13:29:08] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 83%
+[13:29:09] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 83%
+[13:29:09] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 88%
+[13:29:10] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 91%
+[13:29:10] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 91%
+[13:29:11] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 91%
+[13:29:11] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 98%
+[13:29:11] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 31721 ms
+[13:29:11] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[13:29:11] [Server thread/INFO] [ne.mi.se.pe.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13:29:11] [Server thread/INFO] [co.gi.al.ic.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[13:29:11] [Server thread/INFO] [co.gi.al.ic.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[13:29:24] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a DUMMY block entity @ BlockPos{x=269, y=-27, z=0} but found not block entity block Block{minecraft:air} at location
+[13:29:24] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=269, y=-27, z=0}
+[13:29:24] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a DUMMY block entity @ BlockPos{x=270, y=-29, z=-2} but found not block entity block Block{minecraft:air} at location
+[13:29:24] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=270, y=-29, z=-2}
+[13:29:27] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a DUMMY block entity @ BlockPos{x=326, y=-46, z=40} but found not block entity block Block{minecraft:air} at location
+[13:29:27] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=326, y=-46, z=40}
+[13:29:30] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a DUMMY block entity @ BlockPos{x=395, y=-45, z=53} but found not block entity block Block{minecraft:air} at location
+[13:29:30] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=395, y=-45, z=53}
+[13:29:30] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a DUMMY block entity @ BlockPos{x=397, y=-45, z=52} but found not block entity block Block{minecraft:air} at location
+[13:29:30] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=397, y=-45, z=52}
+[13:29:36] [Server thread/INFO] [minecraft/GameTestBatchRunner]: Running test batch 'lightning:1' (10 tests)...
+[13:29:37] [Server thread/INFO] [minecraft/GameTestServer]: 24 tests are now running!
+[13:29:37] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Is the server overloaded? Running 25565ms or 511 ticks behind
+[13:29:38] [Server thread/INFO] [minecraft/GameTestBatchRunner]: Running test batch 'mating_colors:1' (1 tests)...
+[13:29:41] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a DUMMY block entity @ BlockPos{x=331, y=-53, z=96} but found not block entity block Block{minecraft:air} at location
+[13:29:41] [Server thread/WARN] [minecraft/LevelChunk]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=331, y=-53, z=96}
+[13:29:49] [Server thread/INFO] [minecraft/GameTestBatchRunner]: Running test batch 'defaultBatch:1' (7 tests)...
+[13:29:52] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++__+      ]
+[13:29:54] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++_+      ]
+[13:30:09] [Server thread/INFO] [minecraft/GameTestBatchRunner]: Running test batch 'egg_jade:1' (5 tests)...
+[13:30:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++_+++ ]
+[13:30:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++_+++ ]
+[13:30:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++_+++ ]
+[13:30:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++_+++ ]
+[13:30:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++_+++ ]
+[13:30:14] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++_+++ ]
+[13:30:15] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++_+++ ]
+[13:30:15] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++_+++ ]
+[13:30:19] [Server thread/INFO] [minecraft/GameTestBatchRunner]: Running test batch 'breeding_integration:1' (1 tests)...
+[13:30:20] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++_]
+[13:30:21] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++_]
+BREEDING_REVIEW_MESSAGE: Breeding failed. A nearby opposite-sex Sea Serpent with the same owner is required. Both parents must be Stage 5, at maximum Heart of the Sea health, and off breeding cooldown. Both parents must be in Wander mode and unridden.
+BREEDING_REVIEW_MESSAGE: Breeding failed. A nearby opposite-sex Sea Serpent with the same owner is required. Both parents must be Stage 5, at maximum Heart of the Sea health, and off breeding cooldown. Both parents must be in Wander mode and unridden.
+BREEDING_REVIEW_MESSAGE: Breeding failed. A nearby opposite-sex Sea Serpent with the same owner is required. Both parents must be Stage 5, at maximum Heart of the Sea health, and off breeding cooldown. Both parents must be in Wander mode and unridden.
+BREEDING_REVIEW_MESSAGE: Breeding failed. A nearby opposite-sex Sea Serpent with the same owner is required. Both parents must be Stage 5, at maximum Heart of the Sea health, and off breeding cooldown. Both parents must be in Wander mode and unridden.
+BREEDING_REVIEW_MESSAGE: Breeding failed. A nearby opposite-sex Sea Serpent with the same owner is required. Both parents must be Stage 5, at maximum Heart of the Sea health, and off breeding cooldown. Both parents must be in Wander mode and unridden.
+BREEDING_REVIEW_MESSAGE: Breeding failed. A nearby opposite-sex Sea Serpent with the same owner is required. Both parents must be Stage 5, at maximum Heart of the Sea health, and off breeding cooldown. Both parents must be in Wander mode and unridden.
+BREEDING_REVIEW_MESSAGE: Breeding failed. A nearby opposite-sex Sea Serpent with the same owner is required. Both parents must be Stage 5, at maximum Heart of the Sea health, and off breeding cooldown. Both parents must be in Wander mode and unridden.
+BREEDING_REVIEW_MESSAGE: Breeding failed. A nearby opposite-sex Sea Serpent with the same owner is required. Both parents must be Stage 5, at maximum Heart of the Sea health, and off breeding cooldown. Both parents must be in Wander mode and unridden.
+BREEDING_REVIEW_MESSAGE: Blue Sea Serpent Egg has been laid.
+BREEDING_REVIEW_MESSAGE: Breeding failed. A nearby opposite-sex Sea Serpent with the same owner is required. Both parents must be Stage 5, at maximum Heart of the Sea health, and off breeding cooldown. Both parents must be in Wander mode and unridden.
+[13:30:21] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++]
+[13:30:21] [Server thread/INFO] [minecraft/GameTestServer]: ========= 24 GAME TESTS COMPLETE ======================
+[13:30:21] [Server thread/INFO] [minecraft/GameTestServer]: All 24 required tests passed :)
+[13:30:21] [Server thread/INFO] [minecraft/GameTestServer]: ====================================================
+[13:30:21] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[13:30:21] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[13:30:21] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[13:30:24] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:30:27] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:30:27] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:30:27] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:30:27] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:30:27] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:30:27] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:30:28] [Server thread/INFO] [minecraft/GameTestServer]: Game test server shutting down
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 51s
+11 actionable tasks: 11 executed

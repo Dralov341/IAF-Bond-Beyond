@@ -1,0 +1,23 @@
+
+[water_effects]
+	#Density of cosmetic water spray/trails/impact splashes. 0 disables particles only.
+	#Range: 0.0 ~ 1.0
+	particle_density = 0.65
+
+[riding_camera]
+	#Extra distance for the two far F7 views, per scale.
+	#Range: 0.0 ~ 6.0
+	far_distance_per_scale = 3.0
+	#Extra third-person distance per serpent scale; vanilla adds 4 blocks.
+	#Range: 0.0 ~ 6.0
+	distance_per_scale = 1.8
+	#Extra third-person FOV degrees; gradually reaches this value at scale 6.
+	#Does not change your saved FOV or first-person view. 0 disables the bonus.
+	#Range: 0.0 ~ 30.0
+	fov_bonus = 12.0
+	#World-up camera lift per scale. Collision limits lift and distance.
+	#Range: 0.0 ~ 3.0
+	height_per_scale = 1.1
+	#Show a center aiming reticle in the rear riding views.
+	show_aim_reticle = true
+

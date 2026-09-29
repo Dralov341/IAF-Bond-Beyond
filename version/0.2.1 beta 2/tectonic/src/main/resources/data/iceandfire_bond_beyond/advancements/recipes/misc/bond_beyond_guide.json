@@ -1,0 +1,51 @@
+{
+  "conditions": [
+    { "type": "forge:false" }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:book"
+            ]
+          }
+        ]
+      }
+    },
+    "has_material_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ink_sac"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "iceandfire_bond_beyond:bond_beyond_guide"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material_1",
+      "has_material_2",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "iceandfire_bond_beyond:bond_beyond_guide"
+    ]
+  },
+  "sends_telemetry_event": false
+}

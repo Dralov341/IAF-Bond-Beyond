@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "iceandfire_bond_beyond:block/sea_serpent_bone_block"
+    },
+    "axis=x": {
+      "model": "iceandfire_bond_beyond:block/sea_serpent_bone_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "iceandfire_bond_beyond:block/sea_serpent_bone_block",
+      "x": 90
+    }
+  }
+}

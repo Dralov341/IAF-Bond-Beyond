@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "iceandfire_bond_beyond:sea_serpent_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "iceandfire_bond_beyond:sea_serpent_steel_leggings",
+    "count": 1
+  },
+  "category": "equipment"
+}

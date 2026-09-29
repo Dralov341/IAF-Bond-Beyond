@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  B",
+    " BB",
+    "FB "
+  ],
+  "key": {
+    "B": {
+      "item": "iceandfire_bond_beyond:sea_serpent_bone"
+    },
+    "F": {
+      "item": "iceandfire:sea_serpent_fang"
+    }
+  },
+  "result": {
+    "item": "iceandfire_bond_beyond:sea_serpent_horn"
+  },
+  "show_notification": true
+}

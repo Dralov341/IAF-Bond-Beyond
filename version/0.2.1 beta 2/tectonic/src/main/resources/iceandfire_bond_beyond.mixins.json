@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.iceandfirebondbeyond.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "iceandfire_bond_beyond.refmap.json",
+  "mixins": [
+    "DragonArmorMixin",
+    "DragonSteelLightningMixin",
+    "AlchemySwordLightningMixin",
+    "SeaSerpentMixin",
+    "SeaSerpentInteractionMixin",
+    "SeaSerpentPushMixin",
+    "SeaSerpentBubbleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "LivingEntityRendererAccess",
+    "SeaSerpentAnimatorMixin",
+    "CameraAccess"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ISI",
+    "IBI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    },
+    "B": {
+      "item": "iceandfire_bond_beyond:sea_serpent_bone"
+    }
+  },
+  "result": {
+    "item": "iceandfire_bond_beyond:dragonsteel_lightning_shield"
+  }
+}

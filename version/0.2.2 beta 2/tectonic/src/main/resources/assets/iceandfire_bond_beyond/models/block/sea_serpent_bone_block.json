@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "iceandfire_bond_beyond:block/sea_serpent_bone_block",
+    "side": "iceandfire_bond_beyond:block/sea_serpent_bone_block_side"
+  }
+}

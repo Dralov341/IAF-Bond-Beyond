@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "iceandfire_bond_beyond:sea_serpent_bone"
+    }
+  },
+  "result": {
+    "item": "iceandfire_bond_beyond:sea_serpent_bone_block",
+    "count": 1
+  },
+  "category": "building"
+}

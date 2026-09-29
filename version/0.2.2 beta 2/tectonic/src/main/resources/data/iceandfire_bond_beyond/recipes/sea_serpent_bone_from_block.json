@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iceandfire_bond_beyond:sea_serpent_bone_block"
+    }
+  ],
+  "result": {
+    "item": "iceandfire_bond_beyond:sea_serpent_bone",
+    "count": 4
+  },
+  "category": "misc"
+}

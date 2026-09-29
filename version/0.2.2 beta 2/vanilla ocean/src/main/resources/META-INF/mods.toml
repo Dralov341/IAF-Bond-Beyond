@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LGPL-3.0"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Gravtian"
+description='''
+An addon by Gravtian (Vietnam) for the original Ice and Fire: Dragons.
+Raise and ride Sea Serpents, equip dragons, harvest serpent remains,
+and forge Sea Serpent Steel underwater. Includes a bilingual field guide.
+Vanilla Ocean edition: tuned egg depth/pressure; Tectonic is not required.
+'''
+
+[[dependencies.${mod_id}]]
+modId="forge"
+mandatory=true
+versionRange="[47.1.79,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="citadel"
+mandatory=true
+versionRange="[2.5.3,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="iceandfire"
+mandatory=true
+versionRange="[2.1.13,)"
+ordering="AFTER"
+side="BOTH"
+

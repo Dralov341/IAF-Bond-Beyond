@@ -1,0 +1,77 @@
+{
+  "parent": "iceandfire_bond_beyond:item/elemental_tower_shield",
+  "textures": {
+    "plate": "iceandfire:block/dragonsteel_ice_block",
+    "gem": "minecraft:block/blue_ice"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        -5
+      ],
+      "translation": [
+        -1,
+        2,
+        -2
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        5
+      ],
+      "translation": [
+        -1,
+        2,
+        -2
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        1,
+        3,
+        1
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "translation": [
+        1,
+        3,
+        1
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    }
+  }
+}

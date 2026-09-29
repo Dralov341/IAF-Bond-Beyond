@@ -1,0 +1,13 @@
+{
+  "type": "iceandfire_bond_beyond:sea_serpent_forge",
+  "input": {
+    "tag": "forge:ingots/iron"
+  },
+  "blood": {
+    "item": "iceandfire_bond_beyond:sea_serpent_blood"
+  },
+  "result": {
+    "item": "iceandfire_bond_beyond:sea_serpent_steel_ingot"
+  },
+  "cook_time": 200
+}

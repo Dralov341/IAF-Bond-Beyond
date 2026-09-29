@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BHB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "iceandfire_bond_beyond:sea_serpent_bone"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "iceandfire_bond_beyond:sea_serpent_forge_core",
+    "count": 1
+  },
+  "category": "building"
+}

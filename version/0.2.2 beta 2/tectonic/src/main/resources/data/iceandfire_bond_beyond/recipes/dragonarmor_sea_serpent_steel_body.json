@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "iceandfire_bond_beyond:sea_serpent_steel_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "# #"
+  ],
+  "result": {
+    "item": "iceandfire_bond_beyond:dragonarmor_sea_serpent_steel_body"
+  },
+  "show_notification": true
+}

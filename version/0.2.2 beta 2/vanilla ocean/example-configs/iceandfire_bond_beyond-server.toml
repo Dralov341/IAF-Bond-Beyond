@@ -1,0 +1,121 @@
+
+[breath]
+	#Water impacts damage nearby visible enemies, for ALL breath sources.
+	area_damage = true
+	#Multiplier for impact radius: Stage 1 = 1.5 blocks, Stage 5 = 4.5 blocks.
+	#Full radius belongs to the central stream; satellite droplets have smaller bursts.
+	#Final radius is capped at 12. 0 keeps direct hits only.
+	#Range: 0.0 ~ 3.0
+	area_radius_multiplier = 1.0
+	#Visible projectile AND collision diameter multiplier. Applies to new shots.
+	#Range: 0.5 ~ 2.0
+	bubble_size_multiplier = 1.35
+	#Maximum small bubbles per 2-tick pulse at Stage 5 / scale 11. Younger/smaller serpents emit fewer, down to 4. Does NOT multiply DPS or erosion.
+	#New spray key replaces the old narrow-stream bubbles_per_pulse; old files receive the corrected default.
+	#Range: 4 ~ 16
+	spray_bubbles_per_pulse = 12
+	#Maximum soft spray half-angle at Stage 5 / scale 11; smaller serpents have a narrower spray. One precisely aimed forge carrier.
+	#New spray key replaces spread_degrees so old 3.5-degree defaults do not keep the thin stream.
+	#Range: 3.0 ~ 20.0
+	spray_half_angle_degrees = 12.0
+	#Whole-stream damage multiplier, shared by wild/tame/mounted/forge breath.
+	#Default sustained DPS at ages 0/25/50/75/100/125 days: 2/4/7/12/18/22, before armor/elements.
+	#Scales with IAF dragonAttackDamageFire. One damage window per victim/source every 10 ticks.
+	#Range: 0.0 ~ 10.0
+	damage_multiplier = 1.0
+	#Gentle horizontal push on a successful damage window, not per visual bubble; respects knockback resistance.
+	#Range: 0.0 ~ 0.4
+	knockback_strength = 0.12
+	#Allow bubble erosion, including forge breath; still respects mobGriefing and Forge vetoes.
+	erosion_enabled = true
+	#Erosion radius multiplier for the central stream only; spread/satellite bubbles do not widen the footprint.
+	#Default Stage 5 reach: 2.25 blocks around the impact, plus the shallow forge bed when powering a forge.
+	#Range: 0.25 ~ 1.0
+	erosion_radius_multiplier = 0.75
+	#Maximum successful soil changes per second per Stage-5 serpent under continuous fire.
+	#Lower stages get proportional budgets, rounded down per half-second. Very low caps may disable young-stage erosion.
+	#One erosion pass per 10 ticks; a block can change once per 40 ticks.
+	#All bubbles and forge-bed erosion share this budget. 0 disables soil changes without disabling forge power.
+	#Range: 0 ~ 100
+	erosion_blocks_per_second = 20
+
+[growth]
+	#Post-hatch aging speed for wild and owned serpents; 1 = original speed, 0 pauses aging.
+	#Does not change random spawn ages, hunger, newborn bonding time or growth food.
+	#Range: 0.0 ~ 100.0
+	base_speed = 1.0
+	#Apply the ocean multipliers below while submerged in an eligible ocean biome.
+	#Warm ocean defaults to 1.3x. Disable for the original uniform aging speed.
+	ocean_temperature_affects_growth = true
+
+	#Multipliers by ocean biome; modded cold/hot oceans use cold_ocean/warm_ocean.
+	[growth.ocean_multipliers]
+		#Range: 0.0 ~ 10.0
+		frozen_ocean = 0.75
+		#Range: 0.0 ~ 10.0
+		deep_frozen_ocean = 0.8
+		#Range: 0.0 ~ 10.0
+		cold_ocean = 0.85
+		#Range: 0.0 ~ 10.0
+		deep_cold_ocean = 0.9
+		#Range: 0.0 ~ 10.0
+		ocean = 1.0
+		#Range: 0.0 ~ 10.0
+		deep_ocean = 1.05
+		#Range: 0.0 ~ 10.0
+		lukewarm_ocean = 1.15
+		#Range: 0.0 ~ 10.0
+		deep_lukewarm_ocean = 1.2
+		#Range: 0.0 ~ 10.0
+		warm_ocean = 1.3
+
+[eggs]
+	#Chance for ONE egg on death of a wild female Stage-3 Sea Serpent (0 disables, 1 guarantees).
+	#No separate Ancient requirement. Males, Stage 1-2, hatched/owned serpents never drop hunting eggs; breeding is separate.
+	#Respects doMobLoot. The egg drops at death, not from corpse harvesting.
+	#Range: 0.0 ~ 1.0
+	wild_female_stage_3_drop_chance = 0.25
+	#Wild female Stage-4 egg chance; same rules as Stage 3.
+	#Range: 0.0 ~ 1.0
+	wild_female_stage_4_drop_chance = 0.5
+	#Wild female Stage-5 egg chance; default guarantees ONE egg, same rules as Stage 3.
+	#Range: 0.0 ~ 1.0
+	wild_female_stage_5_drop_chance = 1.0
+	#Global egg incubation speed, multiplied by the separate egg ocean rates below.
+	#Range: 0.0 ~ 100.0
+	incubation_speed = 1.0
+	#Required progress ticks before biome/speed modifiers. 0 inherits IAF dragonEggTime.
+	#Range: 0 ~ 24000000
+	hatch_time_ticks = 0
+	#Water blocks required ABOVE the egg. -1 uses the edition default (Tectonic 15; Vanilla 8).
+	#Range: -1 ~ 512
+	minimum_water_depth = -1
+	#Pressure-safe water depth. -1 uses the edition default (Tectonic 20; Vanilla 32).
+	#Range: -1 ~ 512
+	pressure_safe_depth = -1
+	#Multiplier for the edition's pressure break chance; checked every 100 ticks.
+	#0 disables pressure breaking. Does not affect incubation speed.
+	#Range: 0.0 ~ 100.0
+	pressure_chance_multiplier = 1.0
+
+	#Multipliers by ocean biome; modded cold/hot oceans use cold_ocean/warm_ocean.
+	[eggs.ocean_multipliers]
+		#Range: 0.0 ~ 10.0
+		frozen_ocean = 0.75
+		#Range: 0.0 ~ 10.0
+		deep_frozen_ocean = 0.8
+		#Range: 0.0 ~ 10.0
+		cold_ocean = 0.85
+		#Range: 0.0 ~ 10.0
+		deep_cold_ocean = 0.9
+		#Range: 0.0 ~ 10.0
+		ocean = 1.0
+		#Range: 0.0 ~ 10.0
+		deep_ocean = 1.05
+		#Range: 0.0 ~ 10.0
+		lukewarm_ocean = 1.15
+		#Range: 0.0 ~ 10.0
+		deep_lukewarm_ocean = 1.2
+		#Range: 0.0 ~ 10.0
+		warm_ocean = 1.3
+

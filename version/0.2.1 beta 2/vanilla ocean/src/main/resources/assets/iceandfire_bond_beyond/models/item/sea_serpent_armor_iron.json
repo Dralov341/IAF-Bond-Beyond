@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "iceandfire_bond_beyond:item/serpent_ironarmor_item"
+  }
+}
